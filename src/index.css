@@ -439,6 +439,101 @@
   overflow: hidden; /* empêche tout débordement */
 }
 
+/* =================== RESPONSIVEs =================== */
+  /* =================== HERO =================== */
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-image {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .hero-image img {
+    width: 200px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+ /* =================== Navbar =================== */
+ @media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+/* =================== CONTACT =================== */
+@media screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-info {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+/* =================== PROJETS =================== */
+@media screen and (max-width: 768px) {
+  .projets-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projet-card {
+    width: 90%;
+  }
+}
+
+/* =================== FOOTER =================== */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
