@@ -13,12 +13,7 @@ function Contact() {
             Je vous répondrai rapidement.
           </p>
 
-          <div className="info">
-            <p>📧 hawa@email.com</p>
-            <p>📞 +221 77 000 00 00</p>
-            <p>📍Dakar, Sénégal</p>
-            <p>🌐 www.monportfolio.com</p>
-          </div>
+          
         </div>
 
         {/* FORMULAIRE */}
@@ -29,6 +24,13 @@ function Contact() {
 
           <button type="submit">Envoyer</button>
         </form>
+         <div className="info">
+            <p>📧 hawa@email.com</p>
+            <p>📞 +221 77 000 00 00</p>
+            <p>📍Dakar, Sénégal</p>
+            <p>🌐 www.monportfolio.com</p>
+          </div>
+        
 
       </div>
     </section>

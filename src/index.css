@@ -205,7 +205,9 @@
   background: #1c1c1c;
   padding: 30px;
   border-radius: 15px;
-  width: 400px;
+  width: 100%;        /* 🔥 prend toute la largeur */
+  max-width: 350px;   /* 🔥 limite pour rester joli */
+  margin: 0 auto;     /* 🔥 centre le formulaire */
   display: flex;
   flex-direction: column;
   gap: 15px;
