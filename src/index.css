@@ -203,14 +203,14 @@
 /* FORM */
 .contact-form {
   background: #1c1c1c;
-  padding: 30px;
+  padding: 20px; /* 🔥 réduit padding */
   border-radius: 15px;
-  width: 100%;        /* 🔥 prend toute la largeur */
-  max-width: 350px;   /* 🔥 limite pour rester joli */
-  margin: 0 auto;     /* 🔥 centre le formulaire */
+  width: 90%; /* 🔥 évite débordement */
+  max-width: 320px; /* 🔥 un peu plus petit */
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
