@@ -41,9 +41,15 @@
 
   }
 
+  .menu_lien {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+  }
+
   .nav-links {
     position: fixed;
-    top: 120px;
+    top: 70px;
     right: -100%; /* caché */
     height: 70vh;
     width: 250px;
@@ -53,6 +59,7 @@
     justify-content: center;
     gap: 30px;
     transition: 0.3s;
+    position: absolute;
   }
 
   .nav-links.active {
