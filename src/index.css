@@ -26,16 +26,26 @@
 /* MOBILE */
 @media (max-width: 768px) {
 
+
+  .navbar{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8%;
+  background: #111;
+  color: white;
+  }
   .menu-icon {
     display: block;
+
 
   }
 
   .nav-links {
     position: fixed;
-    top: 0;
+    top: 120px;
     right: -100%; /* caché */
-    height: 100vh;
+    height: 70vh;
     width: 250px;
     background: #222;
     flex-direction: column;
