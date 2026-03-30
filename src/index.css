@@ -20,6 +20,7 @@
   display: none;
   font-size: 28px;
   cursor: pointer;
+  margin-left: auto;
 }
 
 /* MOBILE */
@@ -27,6 +28,7 @@
 
   .menu-icon {
     display: block;
+
   }
 
   .nav-links {

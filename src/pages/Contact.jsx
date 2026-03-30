@@ -13,7 +13,6 @@ function Contact() {
             Je vous répondrai rapidement.
           </p>
 
-          
         </div>
 
         {/* FORMULAIRE */}
