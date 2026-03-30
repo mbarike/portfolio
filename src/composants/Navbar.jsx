@@ -6,13 +6,11 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="menu_lien">
-        <h2 className="logo">Hawa Thiam</h2>
+      <h2 className="logo">Hawa Thiam</h2>
 
       {/* BOUTON HAMBURGER */}
       <div className="menu-icon" onClick={() => setOpen(!open)}>
         ☰
-      </div>
       </div>
 
       {/* NAV LINKS */}

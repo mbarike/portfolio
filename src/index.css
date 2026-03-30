@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 8%;
+  padding: 10px 8%;
   background: #111;
   color: white;
 }
@@ -28,7 +28,7 @@
 
 
   .navbar{
-    display: flex;
+     display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px 8%;
@@ -41,15 +41,9 @@
 
   }
 
-  .menu_lien {
-    display: flex;
-    align-items: center;
-    gap: 90px;
-  }
-
   .nav-links {
     position: fixed;
-    top: 70px;
+    top: 90px;
     right: -100%; /* caché */
     height: 70vh;
     width: 250px;
@@ -59,7 +53,6 @@
     justify-content: center;
     gap: 30px;
     transition: 0.3s;
-    position: absolute;
   }
 
   .nav-links.active {
