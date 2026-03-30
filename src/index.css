@@ -68,6 +68,10 @@ nav .logo {
    text-decoration: underline;
 }
 
+.burguer {
+  display: none;
+}
+
 
 /* mobil nav  */
 
