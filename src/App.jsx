@@ -8,6 +8,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 
 
+
 function App(){
 
   const router = createBrowserRouter([
@@ -17,6 +18,7 @@ function App(){
           { path:'/projets' ,element: <Projects/>},
           { path:'/contact' ,element: <Contact/>},
           { path:'/Apropos' ,element: <Apropos/>},
+          
         ]
 
       }
