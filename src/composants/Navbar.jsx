@@ -1,27 +1,63 @@
-import { Link } from "react-router-dom";
-import { useState } from "react";
+import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
+import { IoMenu } from "react-icons/io5";
 
-function Navbar() {
-  const [open, setOpen] = useState(false);
+
+const Navbar = () => {
+
+  const [ openMenu , setOpenMenu ] = useState(false)
+  console.log(openMenu)
+   
 
   return (
-    <nav className="navbar">
-      <h2 className="logo">Hawa Thiam</h2>
+    <nav> 
+        {/* gauche */}
+       <h1 className='logo'>Hawa thiam</h1>
 
-      {/* BOUTON HAMBURGER */}
-      <div className="menu-icon" onClick={() => setOpen(!open)}>
-        ☰
-      </div>
+        {/* au milieu */}
 
-      {/* NAV LINKS */}
-      <ul className={`nav-links ${open ? "active" : ""}`}>
-        <li><Link to="/" onClick={() => setOpen(false)}>Accueil</Link></li>
-        <li><Link to="/apropos" onClick={() => setOpen(false)}>À propos</Link></li>
-        <li><Link to="/projects" onClick={() => setOpen(false)}>Projects</Link></li>
-        <li><Link to="/contact" onClick={() => setOpen(false)}>Contact</Link></li>
-      </ul>
+        <div className="lien">
+              <NavLink to="/">
+                <p>Accueil</p>
+              </NavLink>
+              <NavLink to="/projets">
+               <p>Projets</p>
+              </NavLink>
+              <NavLink to="/contact" >
+               <p>Contact</p>
+              </NavLink>
+        </div>
+
+        {/* droite */}
+         <div className="menu">
+            <div className="about"></div>
+            <IoMenu 
+             onClick={() => setOpenMenu(!openMenu)}
+            className='burguer'  size={30} />
+         </div>
+
+         {/* volet  */}
+
+          {
+            openMenu && (
+            <div className="lien_mobile">
+              <NavLink to="/">
+                <p>Accueil</p>
+              </NavLink>
+              <NavLink to="/projets">
+               <p>Projets</p>
+              </NavLink>
+              <NavLink to="/contact" >
+               <p>Contact</p>
+              </NavLink>
+           </div>
+            )
+          }
+
+
+
     </nav>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

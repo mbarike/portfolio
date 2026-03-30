@@ -14,7 +14,7 @@ function App(){
       {element: <Layout/> ,
         children : [
           { path:'/' ,element: <Home/>},
-          { path:'/projects' ,element: <Projects/>},
+          { path:'/projets' ,element: <Projects/>},
           { path:'/contact' ,element: <Contact/>},
           { path:'/Apropos' ,element: <Apropos/>},
         ]
