@@ -16,7 +16,7 @@ function Hero() {
         <img src={image} alt="Hawa" />
       </div>
       <div className="hero-buttons">
-        <button onClick={() => navigate("/projects")}>Voir mes projets</button>
+        <button onClick={() => navigate("/projets")}>Voir mes projets</button>
         <button onClick={() => navigate("/contact")} className="btn-outline">Contact</button>
       </div>
     </section>
