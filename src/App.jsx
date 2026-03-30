@@ -5,7 +5,7 @@ import Contact from "./pages/Contact";
 import Apropos from "./pages/Apropos";
 import Projects from "./pages/Projects";
 import Layout from "./pages/Layout";
-import Home from "./pages/Home";
+import Home from "./pages/Home"
 
 
 

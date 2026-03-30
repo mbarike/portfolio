@@ -209,25 +209,6 @@ nav .logo {
   color: #ccc;
 }
 
-/* LIENS */
-.footer-links ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-links li {
-  margin-bottom: 8px;
-}
-
-.footer-links a {
-  color: #ccc;
-  text-decoration: none;
-}
-
-.footer-links a:hover {
-  color: #ff4d6d;
-}
-
 /* BAS DU FOOTER */
 .footer-bottom {
   text-align: center;
