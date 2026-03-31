@@ -26,6 +26,10 @@ const Navbar = () => {
               <NavLink to="/contact" >
                <p>Contact</p>
               </NavLink>
+              <NavLink to="/Apropos" >
+               <p>Apropos</p>
+              </NavLink>
+
         </div>
 
         {/* droite */}
@@ -50,6 +54,10 @@ const Navbar = () => {
               <NavLink to="/contact" >
                <p>Contact</p>
               </NavLink>
+              <NavLink to="/Apropos">
+              <p>Apropos</p>
+              </NavLink>
+              
            </div>
             )
           }
